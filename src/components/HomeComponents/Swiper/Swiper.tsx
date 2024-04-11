@@ -25,7 +25,7 @@ const Swiper = ({ team }: TSwiperDataProps) => {
     <div className="w-full mt-32 mx-auto p-8 rounded-md bg-__section_gray">
         <Slider {...settings} className="w-full h-[35em] md:h-[25em] min-[1030px]:h-[22em] text-white overflow-hidden" >
             {team.map((e, i) => <div key={i} className="">
-                <div className="rounded-full w-[7em] mx-auto">
+                <div className="rounded-full w-[7em] h-[7em] mx-auto overflow-hidden">
                     <img src={e.img} alt={e.name} className="w-full object-cover"/>
                 </div>
                 <div className="mt-2 mx-auto text-center">
