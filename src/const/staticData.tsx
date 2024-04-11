@@ -13,6 +13,9 @@ import ProjectImg2 from '../assets/Home Page 9.png'
 import ProjectImg3 from '../assets/Home Page 8.png'
 import ProjectImg4 from '../assets/Home Page 2.png'
 import Img from '../assets/Image.png'
+import Img22 from '../assets/moones.jpg'
+import Img33 from '../assets/messi.jpeg'
+import Img44 from '../assets/CR7.jpeg'
 import SImg1 from '../assets/Rectangle 9.png'
 import SImg2 from '../assets/Rectangle 10.png'
 import SImg3 from '../assets/Rectangle 11.png'
@@ -122,23 +125,23 @@ export const team: TTeam = [
         discription: 
         'Moones Mezher is an accomplished and dynamic leader with a proven track record of driving teams towards success, with a keen eye for detail and a passion for fostering collaboration, Danyal brings a unique track record blend of strategic thinking and hands-on leadership to every project.',
         rate: 4.5,
-        img: Img
+        img: Img22
     },
     {
         name: 'Lionel Messi',
         postion: 'Front Stack Developer',
         discription: 
-        'Moones Mezher is an accomplished and dynamic leader with a proven track record of driving teams towards success, with a keen eye for detail and a passion for fostering collaboration, Danyal brings a unique track record blend of strategic thinking and hands-on leadership to every project.',
-        rate: 4.5,
-        img: Img
+        'Lionel Messi is an accomplished and dynamic leader with a proven track record of driving teams towards success, with a keen eye for detail and a passion for fostering collaboration, Danyal brings a unique track record blend of strategic thinking and hands-on leadership to every project.',
+        rate: 3,
+        img: Img33
     },
     {
         name: 'Cristiano Ronaldo',
         postion: 'Backend Stack Developer',
         discription: 
-        'Moones Mezher is an accomplished and dynamic leader with a proven track record of driving teams towards success, with a keen eye for detail and a passion for fostering collaboration, Danyal brings a unique track record blend of strategic thinking and hands-on leadership to every project.',
-        rate: 4.5,
-        img: Img
+        'Cristiano Ronaldo is an accomplished and dynamic leader with a proven track record of driving teams towards success, with a keen eye for detail and a passion for fostering collaboration, Danyal brings a unique track record blend of strategic thinking and hands-on leadership to every project.',
+        rate: 5,
+        img: Img44
     }
 ];
 

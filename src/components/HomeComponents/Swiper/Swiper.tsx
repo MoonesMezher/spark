@@ -29,7 +29,7 @@ const Swiper = ({ team }: TSwiperDataProps) => {
                     <img src={e.img} alt={e.name} className="w-full object-cover"/>
                 </div>
                 <div className="mt-2 mx-auto text-center">
-                    <h1 className="font-bold">{e.name + i}</h1>
+                    <h1 className="font-bold">{e.name}</h1>
                     <h2 className="underline">{e.postion}</h2>
                     <h3 className="mt-2"><StarsRating rating={e.rate}/></h3>
                 </div>
