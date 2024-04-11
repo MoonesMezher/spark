@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Satoshi', sans-serif;
+}
+
+
+.gradient-hero {
+    background-image: linear-gradient(90deg, #aeacff 0%, #fff 10%, #aeacff 190%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: #;
+}
+
+.gradient-title {
+    background-image: linear-gradient(90deg, #4cc1ed 0%, #fff 20%, #4cc1ed 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.gradient-title-purple {
+    background-image: linear-gradient(90deg, #aeacff 0%, #fff 20%, #aeacff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.gradient-footer {
+    background-image: linear-gradient(90deg, #105772 0%, #00417b 75%);
+}
+
+.gradient-project-card {
+    background-image: linear-gradient(90deg, #e8ddfe 0%, #fff 70%, #e8ddfe 90%);
+}
+
+.main-container {
+    @apply py-10 mx-auto w-full px-2;
+}
+
+@media (min-width: 640px) {
+    .main-container {
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .main-container {
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .main-container {
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .main-container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1536px) {
+    .main-container {
+        max-width: 1536px;
+    }
+}
+@media (min-width: 1800px) {
+    .main-container {
+        max-width: 80%;
+    }
+}
+
+.brush {
+    background: radial-gradient(circle, #245a6e 0%, transparent 50%);
+    opacity: 80%;
+    position: absolute;
+    z-index: 0;
+    border-radius: 50%;
+}

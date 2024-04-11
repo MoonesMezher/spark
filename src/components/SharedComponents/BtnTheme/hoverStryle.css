@@ -1,0 +1,17 @@
+.btn:hover div {
+    left: 0;
+}
+.btn:hover {
+    transition: .5s;
+    color: white;
+}
+
+.btn:hover .animation {
+    animation: move .5s infinite both;
+}
+
+@keyframes move {
+    to {
+        transform: translateX(3px) translateY(-3px);
+    }
+}
